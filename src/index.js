@@ -33,6 +33,7 @@ app.use(cors());
 
 // adding morgan to log HTTP requests
 app.use(morgan("combined"));
+// app.use(morgan("dev"));
 
 // defining an endpoint to return all ads
 

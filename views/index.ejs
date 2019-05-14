@@ -2,12 +2,13 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-
-  <a href="/auth/login">Login Page</a>
+    <a
+      href="https://github.com/login/oauth/authorize?client_id=a2170420b7e77a612f17&redirect_uri=http://localhost:3000/oauth/redirect"
+    >
+      Login with github
+    </a>
   </body>
 </html>
